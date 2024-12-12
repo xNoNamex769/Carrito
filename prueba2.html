@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Steam Games</h1>
+        <button id="boton-carrito">Carrito Compras</button>
+    </header>
+    <main>
+        <section id="lista-productos" class="lista-productos">
+        </section>
+    </main>
+
+    <div id="modal-carrito" class="modal">
+        <div class="contenido-modal">
+            <h2>Carrito de Compras</h2>
+            <table id="tabla-carrito">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <section id="resumen-carrito">
+                <p>Total: $<span id="total-carrito">0.00</span></p>
+                <button id="limpiar-carrito">Limpiar Carrito</button>
+                <button id="cerrar-carrito">Seguir Comprando</button>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/test2.js"></script>
+</body>
+</html>
